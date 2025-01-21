@@ -1,0 +1,38 @@
+pagina login:
+
+stufe a gas: piazzetta e lincar
+
+
+pagina home:
+- barra fissa
+- tasti
+- presentazione dei servizi
+- collaboratori
+- in fondo contatti e orari
+
+pagina vetrina stufe:
+- barra fissa
+- tasti
+- elenco, griglia di prodotti con il prezzo
+- metodi di pagamento (bonifico, possibilità di finanziamento)
+- in fondo contatti e orari
+
+pagina vetrina altri prodotti:
+- barra fissa
+- tasti
+- elenco, griglia di prodotti con il prezzo
+- metodi di pagamento (tubi, aspiracenere, telefono) 
+- in fondo contatti e orari
+
+pagina termostufe, termocucine a pellet e caldaie:
+tra i vari prodotti potete trovare prodotti economici e pezzi da arredo
+- barra fissa
+- tasti
+-
+- in fondo contatti e orari
+
+kit di ventilazione
+
+focolari sia a legno che a pellet
+
+focolari a pellet per trasformare i camini a legna

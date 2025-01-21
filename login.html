@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Colombero Stufe">
+    <link rel="stylesheet" href="./css/mioStile.css">
+    <title>Colombero Stufe</title>
+</head>
+<body>
+    <header style=" text-align: center;">
+        <img src="./img/logo.png" > 
+    </header>
+
+    <nav style="background-color:rgb(255, 255, 255); display: flex; height: 50px;">
+    
+    </nav>
+
+    <h2 style=" text-align: center;">LOGIN</h2>
+
+    <form action="./home.html" style="margin-left: 43%; margin-bottom: 1%;">
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Password:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <a href="./home.html"><input id="button" type="submit" value="Submit"></a>
+    </form> 
+
+    <div style="text-align: center; font-size: large ;">
+      <section> Non hai un account? </section>
+      <a href="./registrati.html" style="color: rgb(233, 15, 15);">Registrati qui!</a>
+    </div>
+    
+
+    <footer> 
+        <section>
+          <img src="./img/logoFine.png">
+        </section>
+        <section style="display: flex;">
+          <section style="width: 30%; margin-left: 3%;">
+            <h1 style="color: brown;">ORARI:</h1>
+            <p>Lunedì: 15:00 - 19:00 <br> da Martedì a Venerdì: 08:30 - 12:00 / 15:00 - 19:00 <br> Sabato: 08:30 - 12:00 / pomeriggio solo su appuntamento <br> Chiusi solo la Domenica e il Lunedì mattina</p>
+          </section>
+          <section style="width: 20%; margin-left: 10%;">
+            <h1 style="color: brown;">POSIZIONE:</h1>
+            <p>Il nostro negozio si trova in <a href="https://www.google.com/maps/place/Corso+IV+Novembre,+24,+12100+Cuneo+CN/@44.3886089,7.537035,17z/data=!3m1!4b1!4m6!3m5!1s0x12cd694454deee35:0x321dbee77c8283c4!8m2!3d44.3886068!4d7.5384833!16s%2Fg%2F11crv9h8n1?entry=ttu">Corso IV Novembre 24/A 12100 Cuneo (CN) Italia</a></p>
+          </section>
+          <section style="width: 30%; margin-left: 10%;">
+            <h1 style="color: brown;">CONTATTI:</h1>
+            <p>Tel. 0171 692974  <br> Tel. 3292182792 <br>  Email: info@colomberostufe.it <br> Pec: colomberostufe@pec.confartigianato.it <br> P.Iva: 01872050040 <br> Codice Fiscale: 01872050040</p>
+          </section>
+        </section>
+      </footer>
+
+      <script>
+        const nome = document.getElementById("fname")
+        const password = document.getElementById("lname")
+
+        const pulsante = document.getElementById("button")
+
+        pulsante.addEventListener("click", function(e) {
+          let utenteGiusto = "Arianna"
+          let passwordGiusta = "password"
+
+          if(nome.value == utenteGiusto && password.value == passwordGiusta){
+            alert("Benbenuto " + nome.value + "!")
+          }else{
+            alert("le credenziali sono errate")
+          }
+          
+        })
+
+
+      </script>
+
+
+
+</body>
+</html>
