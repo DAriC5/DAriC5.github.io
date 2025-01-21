@@ -1,92 +1,79 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Colombero Stufe">
     <link rel="stylesheet" href="./css/mioStile.css">
-	<title>Colombero Stufe</title>
+    <title>Colombero Stufe</title>
 </head>
 <body>
     <header style=" text-align: center;">
-        <a href="./home.html"><img src="./img/logo.png" > </a>
+        <img src="./img/logo.png" > 
     </header>
-    <nav>
-        <a class="bottone" href="login.html" style="width: 7%; "> LOGIN </a>
-        <a class="bottone" href="home.html" style="width: 6.5%"> HOME </a>        
-        <div class="dropdown" style="width: 8%; margin-left: 10%; margin-top: 1.2%;">
-          <section class="bottone">STUFE</section>
-          <div class="dropdown-content">
-            <a href="stufeLegna.html">Stufe a legna</a>
-            <a href="stufePellet.html">Stufe a pellet</a>
-            <a href="stufeGas.html">Stufe a gas</a>
-          </div>
-        </div>
-        <a class="bottone" href="vetrina2.html" style="width: 10%;"> ACCESSORI </a>
-        <a class="bottone" href="specialità.html" style="width: 10%;"> PARTICOLARITA' </a>
+
+    <nav style="background-color:rgb(255, 255, 255); display: flex; height: 50px;">
+    
     </nav>
 
-    <div>
-        <p style="padding-top: 2%; padding-right: 3%; padding-left: 3%;  text-align: center;">
-           Benvenuti nel sito di Colombero Stufe, siamo una ditta che vanta di un'esperienza più che trentennale nel campo del riscaldamento e un'attività giunta alla terza generazione! Possiamo garantire esperienza e competenza per suggerire la soluzione ottimale ai problemi di riscaldamento principale o integrativo. Abbiamo la sede a Cuneo dove potrete vedere stufe e caminetti di tutti i tipi perfetti per scaldarvi nei freddi inverni.
-        </p>
-        <h1 class="titoli" style="margin-left: 1%;"> 
-           In seguito vi presenteremo tutti i nostri servizi:
-        </h1>
+    <h2 style=" text-align: center;">LOGIN</h2>
+
+    <form action="./home.html" style="margin-left: 43%; margin-bottom: 1%;">
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Password:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <a href="./home.html"><input id="button" type="submit" value="Submit"></a>
+    </form> 
+
+    <div style="text-align: center; font-size: large ;">
+      <section> Non hai un account? </section>
+      <a href="./registrati.html" style="color: rgb(233, 15, 15);">Registrati qui!</a>
     </div>
-    <section style="display: flex; background-color:rgb(255, 255, 255);">
-        <p style="padding-left: 7%; width: 19%; text-align: center;"> <br> 1° VENDITA STUFE CAMINI E ACCESSORI <br> <br>
-          <img src="./img/stufaPiazzetta.png"> <br> <br>
-          Nel nostro negozio potete visionare stufe, caminetti e termostufe con la consulenza di personale qualificato.
-        </p>
-        <p style="padding-left: 9%; width: 21%; text-align: center;"> <br> 2° TRASPORTO E INSTALLAZIONE <br> <br> <br>
-          <img src="./img/furgoneVer.jpg"> <br> <br>
-          La nostra ditta provvede oltre che alla vendita anche all'installazione dando la possibilità di accedere ad agevolazioni fiscali. <br>
-        </p>
-        <p style="padding-left: 10%; width: 19%; text-align: center;"> 3° MANUTENZIONE, PULIZIA, RISOLUZIONE PROBLEMI E RICAMBI<br> <br>
-          <img src="./img/silvio370.png"> <br> <br>
-          La nostra ditta dispone anche di un'assistenza clienti per chi ha dei problemi con dei nostri prodotti, in caso di necessità verremo a vedere il problema di persona e risolverlo in un batter d'occhio!
-        </p> 
-    </section>
-    <h1 class="titoli"><br><br>Se ci verrete a trovare in negozio potrete notare che vendiamo diversi tipi di stufe, infatti i nostri fornitori sono diversi, tutti con sede in Italia, e sono i seguenti: <br></h1>
-    <section style="display: flex;"> 
-        <p style="padding-left: 20% ; width: 30%; padding-top: 7%; text-align: center;">La principale ditta che trattiamo è Piazzetta, che ci fornisce stufe e caminetti a legna, a pellet, ibride e a gas, di ultima generazione con dettagli artigianali molto interessanti ed eleganti adatti anche alla modernità della nuova generazione. In più la ditta piazzetta detiene il brevetto del ventilatore multifuoco system con cui il calore viene immesso nell'ambiente dal basso consentendo un calore uniforme in tutto l'ambiente.</p>
-        <div class="sitiCollab"><section><a href="https://www.piazzetta.com/it/stufe"><img src="./img/Piazzetta.png" style="padding-left: 65%; margin-top: 20%;"> </a></section></div>
-    </section>
-    <section style="display: flex;">           
-      <p style="padding-left: 20% ; width: 30%; padding-top: 5%; text-align: center;"> La ditta Superior fa parte del gruppo Piazzetta con stufe a legna e a pellet catalogate 5 stelle con qualità ugualmente alta, ma a prezzi leggermente ridotti. </p>
-      <div class="sitiCollab"><section><a href="https://www.superiorstufe.com/ita/it"><img src="./img/superior.png" style="padding-left: 80%; margin-top: 30%;"> </a></section></div>
-    </section>
-    <section style="display: flex;">           
-      <p style="padding-left: 20% ; width: 30%; padding-top: 7%; text-align: center;"> La ditta Lincar oltre a stufe a legno e a pellet produce vari modelli di cucine a legna i classici "Putagè".</p>
-      <div class="sitiCollab"><section><a href="https://www.lincarstufe.com/"><img src="./img/lincar.png" style="padding-left: 50%; margin-top: 35%;"> </a></section></div>
-    </section>
-    <section style="display: flex;">           
-      <p style="padding-left: 20% ; width: 30%; padding-top: 7%; text-align: center;"> La ditta Cadel produce cucine a legna che possono essere anche inserite tra i mobili. </p>
-      <div class="sitiCollab"><section><a href="https://cadelsrl.com/"><img src="./img/cadel.png" style="padding-left: 75%; margin-top: 38%;"> </a></section></div>
-    </section>
-    <section style="display: flex;">           
-      <p style="padding-left: 20% ; width: 30%; padding-top: 7%; text-align: center;"> La ditta Nordica ha una gamma pressochè infinita di prodotti adatta per accontentare tutte le esigenze. Ma soprattutto ha la particolarità di fornirci prodotti rustici ed eleganti.</p>
-      <div class="sitiCollab"><section><a href="https://www.lanordica-extraflame.com/it"><img src="./img/nordica.png" style="padding-left: 40%; margin-top: 34%;"> </a></section></div>
-    </section>
+    
+
     <footer> 
-      <section>
-        <img src="./img/logoFine.png">
-      </section>
-      <section style="display: flex;">
-        <section style="width: 30%; margin-left: 3%;">
-          <h1 style="color: brown;">ORARI:</h1>
-          <p>Lunedì: 15:00 - 19:00 <br> da Martedì a Venerdì: 08:30 - 12:00 / 15:00 - 19:00 <br> Sabato: 08:30 - 12:00 / pomeriggio solo su appuntamento <br> Chiusi solo la Domenica e il Lunedì mattina</p>
+        <section>
+          <img src="./img/logoFine.png">
         </section>
-        <section style="width: 20%; margin-left: 10%;">
-          <h1 style="color: brown;">POSIZIONE:</h1>
-          <p>Il nostro negozio si trova in <a href="https://www.google.com/maps/place/Corso+IV+Novembre,+24,+12100+Cuneo+CN/@44.3886089,7.537035,17z/data=!3m1!4b1!4m6!3m5!1s0x12cd694454deee35:0x321dbee77c8283c4!8m2!3d44.3886068!4d7.5384833!16s%2Fg%2F11crv9h8n1?entry=ttu">Corso IV Novembre 24/A 12100 Cuneo (CN) Italia</a></p>
+        <section style="display: flex;">
+          <section style="width: 30%; margin-left: 3%;">
+            <h1 style="color: brown;">ORARI:</h1>
+            <p>Lunedì: 15:00 - 19:00 <br> da Martedì a Venerdì: 08:30 - 12:00 / 15:00 - 19:00 <br> Sabato: 08:30 - 12:00 / pomeriggio solo su appuntamento <br> Chiusi solo la Domenica e il Lunedì mattina</p>
+          </section>
+          <section style="width: 20%; margin-left: 10%;">
+            <h1 style="color: brown;">POSIZIONE:</h1>
+            <p>Il nostro negozio si trova in <a href="https://www.google.com/maps/place/Corso+IV+Novembre,+24,+12100+Cuneo+CN/@44.3886089,7.537035,17z/data=!3m1!4b1!4m6!3m5!1s0x12cd694454deee35:0x321dbee77c8283c4!8m2!3d44.3886068!4d7.5384833!16s%2Fg%2F11crv9h8n1?entry=ttu">Corso IV Novembre 24/A 12100 Cuneo (CN) Italia</a></p>
+          </section>
+          <section style="width: 30%; margin-left: 10%;">
+            <h1 style="color: brown;">CONTATTI:</h1>
+            <p>Tel. 0171 692974  <br> Tel. 3292182792 <br>  Email: info@colomberostufe.it <br> Pec: colomberostufe@pec.confartigianato.it <br> P.Iva: 01872050040 <br> Codice Fiscale: 01872050040</p>
+          </section>
         </section>
-        <section style="width: 30%; margin-left: 10%;">
-          <h1 style="color: brown;">CONTATTI:</h1>
-          <p>Tel. 0171 692974 <br> Tel. 3292182792<br> Email: info@colomberostufe.it <br> Pec: colomberostufe@pec.confartigianato.it <br> P.Iva: 01872050040 <br> Codice Fiscale: 01872050040</p>
-        </section>
-      </section>
-    </footer>
+      </footer>
+
+      <script>
+        const nome = document.getElementById("fname")
+        const password = document.getElementById("lname")
+
+        const pulsante = document.getElementById("button")
+
+        pulsante.addEventListener("click", function(e) {
+          let utenteGiusto = "Arianna"
+          let passwordGiusta = "password"
+
+          if(nome.value == utenteGiusto && password.value == passwordGiusta){
+            alert("Benbenuto " + nome.value + "!")
+          }else{
+            alert("le credenziali sono errate")
+          }
+          
+        })
+
+
+      </script>
+
+
+
 </body>
 </html>
